@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
+.media-section {
+  padding: 20px;
+}
+
+.media-section h2 {
+  margin-bottom: 10px;
+}
+
+.scroll-box {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.scroll-box img,
+.scroll-box video {
+  max-height: 200px;
+  border: 1px solid #ccc;
+}
+
+.description {
+  margin-top: 10px;
+}
